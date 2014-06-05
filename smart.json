@@ -1,0 +1,9 @@
+{
+  "name": "mocha-web-sinon",
+  "description": "Sinon integration for mocha-web package.",
+  "author": "Code Adventure",
+  "version": "0.1.0",
+  "packages": {
+    "mocha-web": {}
+  }
+}
