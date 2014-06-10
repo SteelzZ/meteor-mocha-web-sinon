@@ -8,7 +8,7 @@ Now you can simply use `sinon.spy` etc. anywhere in your test code on server and
 The sinon matchers can be added to chai so you can write your expectations more
 fluently like this: `expect(mySpy).to.have.been.calledOnce`
 
-You just have to wire them up somewhere in your test configuration by calling: `chai.use(sinonChai)``
+You just have to wire them up somewhere in your test configuration by calling: `chai.use(sinonChai)`
 
 Checkout [all sinon-chai matchers](https://www.npmjs.org/package/sinon-chai) for your own sake!
 
