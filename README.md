@@ -21,6 +21,7 @@ Add unit tests for any new or changed functionality. Lint and test your code
 using [grunt](https://github.com/gruntjs/grunt).
 
 ## Release History
+2014.06 :: Version 0.1.5 - Fixes problems with integrating sinon into mocha-web
 2014.06 :: Version 0.1.2 - Removes automatic sinon-chai wiring from this package
 2014.06 :: Version 0.1.0
 

@@ -11,7 +11,11 @@ Package.on_use(function (api, where) {
 
   api.use(["coffeescript"], ["client", "server"]);
 
-  api.add_files(["source/sinon.js", "source/sinon-chai.js"], "client");
   api.add_files(["source/server.coffee"], "server");
+  api.add_files([
+    "source/beforeClient.coffee",
+    "source/sinon.js",
+    "source/sinon-chai.js"
+  ], "client");
 
 });

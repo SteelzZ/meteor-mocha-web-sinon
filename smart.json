@@ -3,7 +3,7 @@
   "description": "Sinon integration for mocha-web package.",
   "homepage": "https://github.com/CodeAdventure/meteor-mocha-web-sinon",
   "author": "Code Adventure",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "git": "https://github.com/CodeAdventure/meteor-mocha-web-sinon.git",
   "packages": {}
 }
