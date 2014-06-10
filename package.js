@@ -9,7 +9,7 @@ Npm.depends({
 
 Package.on_use(function (api, where) {
 
-  api.use(["coffeescript", "mocha-web"], ["client", "server"]);
+  api.use(["coffeescript"], ["client", "server"]);
 
   api.add_files(["source/sinon.js", "source/sinon-chai.js"], "client");
   api.add_files(["source/server.coffee"], "server");
