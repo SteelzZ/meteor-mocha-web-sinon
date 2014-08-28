@@ -1,5 +1,8 @@
 Package.describe({
-  summary: "Sinon integration for mocha-web."
+  summary: "Sinon integration for mocha-web.",
+  version: "0.1.6",
+  git: "https://github.com/SteelzZ/meteor-mocha-web-sinon.git",
+  name: "steelzz:mocha-web-sinon"
 });
 
 Npm.depends({
