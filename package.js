@@ -12,7 +12,7 @@ Npm.depends({
 
 Package.on_use(function (api, where) {
 
-  api.use(["coffeescript"], ["client", "server"]);
+  api.use(["coffeescript@1.0.2"], ["client", "server"]);
 
   api.add_files(["source/server.coffee"], "server");
   api.add_files([
